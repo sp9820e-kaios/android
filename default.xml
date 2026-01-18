@@ -11,6 +11,9 @@
   <remote  name="yonglongliu"
            fetch="https://github.com/yonglongliu"
            revision="refs/heads/master" />
+  <remote  name="harryxiao"
+           fetch="https://github.com/harryxiao"
+           revision="refs/heads/master" />
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -495,6 +498,6 @@
   <!--<project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />-->
   <project path="u-boot15" name="u-boot15" groups="sprd" remote="yonglongliu" />
   <project path="u-boot64" name="u-boot64" groups="sprd" remote="yonglongliu" />
-  <project path="vendor" name="vendor" groups="sprd" remote="yonglongliu" />
+  <project path="vendor" name="vendor" groups="sprd" remote="harryxiao" />
   <project path="9820E_block" name="9820E_block" groups="sprd" remote="yonglongliu" />
 </manifest>
